@@ -1,0 +1,41 @@
+.venv
+venv
+__pycache__
+*.pyc
+*.log
+*.pth
+
+# Render/Docker artifacts not needed on Vercel
+Dockerfile
+.dockerignore
+render.yaml
+backend_improved.py
+app.py
+build.sh
+build_render.sh
+start.sh
+stop.sh
+
+# Training scripts and legacy code (Vercel deploys engine.py only)
+train_advanced_model.py
+train_better_model.py
+train_fast.py
+train_tactical_model.py
+improved_chess_ai.py
+improved_ai.py
+backend.py
+backend_improved_new.py
+backend_tactical.py
+ai.py
+gui.py
+game.py
+
+# Docs
+*.md
+!chess-frontend/README.md
+LICENSE
+
+# Local artifacts
+.DS_Store
+.claude
+assets

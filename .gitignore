@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+ENV/
+env/
+*.log
+
+# But keep api directory
+!api/
+
+# Model files (allow improved model for deployment)
+chess_model.pth
+# Keep improved model
+# *.pth
+
+# Node
+node_modules/
+chess-frontend/node_modules/
+chess-frontend/build/
+npm-debug.log*
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temp files
+*.tmp
+training.log
+backend.log
+
+# Documentation (keep only README.md)
+IMPLEMENTATION_SUMMARY.md
+QUICKSTART.md
+SETUP_COMPLETE.md
+TRAINING_GUIDE.md
+UI_LAYOUT.md
+UPDATES.md

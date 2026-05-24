@@ -1,0 +1,13 @@
+{
+  "buildCommand": "cd chess-frontend && npm ci && npm run build",
+  "outputDirectory": "chess-frontend/build",
+  "framework": null,
+  "functions": {
+    "api/index.py": {
+      "includeFiles": "engine.py"
+    }
+  },
+  "rewrites": [
+    { "source": "/api/:path*", "destination": "/api/index.py" }
+  ]
+}

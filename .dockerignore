@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+ENV/
+env/
+*.log
+
+# Node
+node_modules/
+npm-debug.log*
+
+# Git
+.git
+.gitignore
+
+# Documentation
+*.md
+!README.md
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Model files (too large, will be added separately)
+*.pth
+
+# Build files (will be created during build)
+chess-frontend/build/
+
+# Deployment files
+.vercel/
+vercel.json
+VERCEL_DEPLOY.md
+DEPLOYMENT_SUMMARY.md
+
+# Scripts
+start.sh
+stop.sh
+build.sh
